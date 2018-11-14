@@ -21,6 +21,7 @@ module FormsLab
       @ship_name_2 = params[:ship_name_2]
       @ship_type_2 = params[:ship_type_2]
       @ship_booty_2 = params[:ship_booty_2]
+      erb :'pirates/show'
     end
 
   end
